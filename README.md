@@ -239,4 +239,4 @@ LinkedIn : https://www.linkedin.com/in/rutuja-kute/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/rutujamanoharkute/Final_Project_FoodWizard/blob/main/LICENSE.txt) file for details.
