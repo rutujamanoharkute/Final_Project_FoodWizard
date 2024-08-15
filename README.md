@@ -1,6 +1,4 @@
-Here's the updated README that includes the deployment on Google Cloud Platform (GCP) and the required details:
 
----
 
 # FoodWizard
 
@@ -12,7 +10,7 @@ FoodWizard is an innovative application designed to streamline the process of di
 
 ### YouTube Demo
 
-Watch the demo: [YouTube Link](https://youtu.be/xQv5ouowBUk)
+Watch the demo: [YouTube Link]([https://youtu.be/xQv5ouowBUk](https://youtu.be/3NYWL_UbS0g))
 
 ### GitHub Repository
 
