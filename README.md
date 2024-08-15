@@ -40,10 +40,6 @@ Those interested in leveraging technology to simplify their culinary journey and
 ### Methodology: 
 
 
-
-
-<img width="609" alt="image" src="https://github.com/FoodWizards/FoodWizardApp/assets/114360071/e7bb1bfd-63c5-4514-b2c4-6c9538990d4c">
-
 **User authenticates with Google Sign-in:** The user clicks on the Google Sign-in button on the Chrome extension. This redirects the user to a Google authorization page where they can sign in with their Google account.
 
 **User enters Youtube URL:** Once the user has successfully signed in with Google, they can then enter a Youtube URL into the App.
