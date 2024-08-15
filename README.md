@@ -10,7 +10,7 @@ FoodWizard is an innovative application designed to streamline the process of di
 
 ### YouTube Demo
 
-Watch the demo: [YouTube Link]([https://youtu.be/xQv5ouowBUk](https://youtu.be/3NYWL_UbS0g))
+Watch the demo: [YouTube Link]([https://youtu.be/3NYWL_UbS0g])
 
 ### GitHub Repository
 
