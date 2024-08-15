@@ -273,11 +273,5 @@ Concise and Informative Demonstration:A concise, informative 10-minute video is 
 
 These resources provide comprehensive documentation, tutorials, and references for the tools, technologies, and libraries used in the project, aiding in the development and understanding of FoodWizard.
 
-## Team Information and Contribution
 
-| Name | Contribution % | Contribution |
-| --- | --- | --- |
-Asawari Kadam | 33.33% | Create chrome extension , Backend - Fast API , Frontend - Streamlit |
-Hariharan Sundaram | 33.33%  | Video processing pipeline - Airflow, CI Integration, Docker |
-Rutuja Kute | 33.33%  |Webscraping pipeline , Application testing, Deployment|
 
