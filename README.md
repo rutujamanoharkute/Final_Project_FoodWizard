@@ -46,11 +46,11 @@ Those interested in leveraging technology to simplify their culinary journey and
 
 **User authenticates with Google Sign-in:** The user clicks on the Google Sign-in button on the Chrome extension. This redirects the user to a Google authorization page where they can sign in with their Google account.
 
-**User enters Youtube URL:** Once the user has successfully signed in with Google, they can then enter a Youtube URL into the Chrome extension.
+**User enters Youtube URL:** Once the user has successfully signed in with Google, they can then enter a Youtube URL into the App.
 
-**Chrome extension captures Youtube URL:** The Chrome extension captures the Youtube URL that the user has entered.
 
-**Chrome extension sends Youtube URL to backend server:** The Chrome extension sends the captured Youtube URL to the backend server built with FastAPI.
+
+** Youtube URL is to backend server:** Youtube URL is to the backend server built with FastAPI.
 
 **FastAPI server saves Youtube URL to Snowflake database:** The FastAPI server receives the Youtube URL from the Chrome extension. The FastAPI server then connects to the Snowflake database and saves the Youtube URL for the specific user who is currently signed in.
 
