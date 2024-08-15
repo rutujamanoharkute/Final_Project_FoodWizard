@@ -45,6 +45,8 @@ FoodWizard consists of several key components:
 - **Data Storage**: Snowflake, Pinecone
 - **Cloud Deployment**: Google Cloud Platform (GCP)
 
+### Project Structure
+
  ```
 ├── FoodWizardApp-patch-patch-fix
 │   ├── ChromeExtension
