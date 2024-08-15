@@ -1,3 +1,7 @@
+Name:  Rutuja Manohar Kute 
+NUID: 002711730
+EMAIl: kute.r@northeastern.edu
+LinkedIn : https://www.linkedin.com/in/rutuja-kute/
 # YouTube Demo
 
 Watch the demo: https://youtu.be/3NYWL_UbS0g
