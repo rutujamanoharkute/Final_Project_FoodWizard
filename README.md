@@ -45,57 +45,66 @@ FoodWizard consists of several key components:
 - **Data Storage**: Snowflake, Pinecone
 - **Cloud Deployment**: Google Cloud Platform (GCP)
 
-📦 FoodWizard
-├─ .github
-│  └─ workflows
-│     └─ python-app.yml
-├─ .gitignore
-├─ ChromeExtension
-│  ├─ background.js
-│  ├─ manifest.json
-│  ├─ obj-128x128.png
-│  ├─ obj-16x16.png
-│  ├─ obj-32x32.png
-│  ├─ obj-48x48.png
-│  ├─ options.html
-│  ├─ popup-script.js
-│  ├─ popup-signed-in-script.js
-│  ├─ popup-signed-in.html
-│  └─ popup.html
-├─ Dockerfile
-├─ FoodDataEDA.ipynb
-├─ LICENSE
-├─ README.md
-├─ airflow
-│  ├─ airflow.cfg
-│  ├─ dags
-│  │  ├─ constants.py
-│  │  ├─ tasks
-│  │  │  ├─ clean_and_validate.py
-│  │  │  ├─ create_embeddings.py
-│  │  │  ├─ filehelper.py
-│  │  │  ├─ initial_setup.py
-│  │  │  ├─ load_to_snowflake.py
-│  │  │  └─ validationclass.py
-│  │  └─ workflowdags.py
-│  ├─ foodscrapper
-│  │  ├─ foodscrapper
-│  │  │  ├─ __init__.py
-│  │  │  ├─ middlewares.py
-│  │  │  ├─ pipelines.py
-│  │  │  ├─ settings.py
-│  │  │  └─ spiders
-│  │  │     ├─ __init__.py
-│  │  │     ├─ foodspiderak.py
-│  │  │     ├─ foodspiderrb.py
-│  │  │     └─ items.py
-│  │  └─ scrapy.cfg
-│  └─ logs
-│     └─ scheduler
-│        └─ latest
-├─ backend
-│  ├─ consumer.py
-│  ├
+.
+├── FoodWizardApp-patch-patch-fix
+│   ├── ChromeExtension
+│   │   ├── background.js
+│   │   ├── manifest.json
+│   │   ├── obj-128x128.png
+│   │   ├── obj-16x16.png
+│   │   ├── obj-32x32.png
+│   │   ├── obj-48x48.png
+│   │   ├── options.html
+│   │   ├── popup-script.js
+│   │   ├── popup-signed-in-script.js
+│   │   ├── popup-signed-in.html
+│   │   └── popup.html
+│   ├── Dockerfile
+│   ├── FoodDataEDA.ipynb
+│   ├── LICENSE
+│   ├── README.md
+│   ├── airflow
+│   │   ├── airflow.cfg
+│   │   ├── dags
+│   │   │   ├── constants.py
+│   │   │   ├── tasks
+│   │   │   └── workflowdags.py
+│   │   ├── foodscrapper
+│   │   │   ├── foodscrapper
+│   │   │   └── scrapy.cfg
+│   │   └── logs
+│   │       └── scheduler
+│   ├── backend
+│   │   ├── consumer.py
+│   │   ├── database.py
+│   │   ├── main.py
+│   │   ├── queryvectordb.py
+│   │   └── script.sh
+│   ├── data.jsonl
+│   ├── docker-compose.yaml
+│   ├── dockerfiles
+│   │   ├── backend.Dockerfile
+│   │   └── frontend.Dockerfile
+│   ├── fine-tune-model.ipynb
+│   ├── frontend
+│   │   ├── Home.py
+│   │   ├── auth.py
+│   │   ├── database.py
+│   │   ├── naviagation
+│   │   │   ├── favorite_recipe.py
+│   │   │   ├── find_recipe.py
+│   │   │   ├── my_info.py
+│   │   │   ├── search_recipe.py
+│   │   │   └── video_url_processor.py
+│   │   └── ui.py
+│   ├── kafka_python-2.0.3.dev0-py2.py3-none-any.whl
+│   ├── messagequeue
+│   │   └── kafka-ui
+│   │       └── config.yml
+│   ├── nginx.conf
+│   └── requirements.txt
+├── README.md
+└── RecipeMaster_Presentation.pdf
 
 ### Data Collection and Preprocessing
 
