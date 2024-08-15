@@ -1,3 +1,4 @@
+
 # YouTube Demo
 
 Watch the demo: https://youtu.be/3NYWL_UbS0g
@@ -227,6 +228,13 @@ A comprehensive PDF document detailing the project is included in the GitHub rep
 
 FoodWizard is designed to revolutionize how users interact with cooking content, making it more accessible and personalized. By summarizing multilingual cooking tutorials and providing personalized recipe recommendations, FoodWizard simplifies the process of discovering and managing recipes, aligning with modern AI and app development trends.
 
----
+#### Contact Info
+Name:  Rutuja Manohar Kute 
 
-Make sure to replace the placeholder for the GitHub repository link with the actual link once you have it.
+NUID: 002711730
+
+EMAIl: kute.r@northeastern.edu
+
+LinkedIn : https://www.linkedin.com/in/rutuja-kute/
+
+LISENCE: 
