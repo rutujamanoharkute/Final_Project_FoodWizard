@@ -1,32 +1,63 @@
-
-
-# FoodWizard
-
-**YouTube Video Summarization and Recipe Recommendation System**
-
-### Overview
-
-FoodWizard is an innovative application designed to streamline the process of discovering, summarizing, and recommending recipes from YouTube cooking tutorials. By leveraging the power of OpenAI's technology, including Whisper and GPT-4 Turbo, FoodWizard can process video content in multiple languages, offering English summaries and personalized recipe recommendations based on user inputs.
-
-### YouTube Demo
+# YouTube Demo
 
 Watch the demo: https://youtu.be/3NYWL_UbS0g
 
-### GitHub Repository
+# FoodWizardApp
+A culinary companion empowered by AI to elevate your cooking with top-notch recipe
+<img width="1061" alt="image" src="https://github.com/FoodWizards/FoodWizardApp/assets/114360071/d27fe38d-fc4e-43e9-bda1-8a3e5d1ab265">
 
-Access the full code base, setup instructions, and detailed documentation for the FoodWizard project here: [GitHub Repository Link](#).
+### Project Overview:
+### Scope:
 
-### Features
+FoodWizard is a platform designed to simplify recipe discovery and recommendation. It offers two key functionalities: YouTube video summarization and personalized recipe recommendations based on user preferences.
 
-- **YouTube Video Summarization**:
-  - Extracts and summarizes content from cooking tutorials available in various languages such as Hindi, Tamil, Marathi, and English.
-  - Converts the extracted content into concise English summaries for easy understanding.
 
-- **Recipe Recommendations**:
-  - Users can input specific instructions, preferences, or ingredients, and FoodWizard will provide personalized recipe recommendations tailored to their needs.
+### Functionalities:
 
-- **Recipe Filtering**:
-  - Enables users to filter and search through the listed recipes based on their preferences and dietary requirements, making it easier to find suitable recipes.
+1. **YouTube Video Summarization with FoodWizard**: 
+   - Utilizes FoodWizard, powered by OpenAI's technology, to extract content from cooking tutorials available in various languages such as Hindi, Tamil, Marathi, and English.
+
+2. **Recipe Recommendations**: 
+   - Users can input any text, including specific instructions or preferences, and receive personalized recipe recommendations based on their input.
+
+3. **Recipe Filtering**: 
+   - Allows users to filter and search through the listed recipes, making it easier to find recipes based on their preferences and dietary requirements.
+
+
+
+### Stakeholders:
+The end users for FoodWizard include:
+Cooking enthusiasts seeking recipe inspiration and guidance.
+Individuals with dietary restrictions or specific flavor preferences looking for tailored recipe recommendations.
+Those interested in leveraging technology to simplify their culinary journey and explore new dishes.
+
+### CodeLab: https://codelabs-preview.appspot.com/?file_id=1T4FIak6iigOSCrGLP44bsKpyt_S_kZ1uKInPsoNiBUM#0
+
+### Architecture Diagram:
+
+
+
+### Methodology: 
+
+
+
+
+<img width="609" alt="image" src="https://github.com/FoodWizards/FoodWizardApp/assets/114360071/e7bb1bfd-63c5-4514-b2c4-6c9538990d4c">
+
+**User authenticates with Google Sign-in:** The user clicks on the Google Sign-in button on the Chrome extension. This redirects the user to a Google authorization page where they can sign in with their Google account.
+
+**User enters Youtube URL:** Once the user has successfully signed in with Google, they can then enter a Youtube URL into the Chrome extension.
+
+**Chrome extension captures Youtube URL:** The Chrome extension captures the Youtube URL that the user has entered.
+
+**Chrome extension sends Youtube URL to backend server:** The Chrome extension sends the captured Youtube URL to the backend server built with FastAPI.
+
+**FastAPI server saves Youtube URL to Snowflake database:** The FastAPI server receives the Youtube URL from the Chrome extension. The FastAPI server then connects to the Snowflake database and saves the Youtube URL for the specific user who is currently signed in.
+
+
+
+
+
 
 ### Project Architecture
 
