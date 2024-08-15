@@ -10,17 +10,13 @@ FoodWizard is a platform designed to simplify recipe discovery and recommendatio
 
 ### Functionalities:
 
-1. **Chrome Extension for Recipe Collection**: 
-   - Users can save their favorite cooking tutorial videos from YouTube by inputting the video links.
-   - Saved videos are organized into a personalized recipe collection for each user.
-
-2. **YouTube Video Summarization with FoodWizard**: 
+1. **YouTube Video Summarization with FoodWizard**: 
    - Utilizes FoodWizard, powered by OpenAI's technology, to extract content from cooking tutorials available in various languages such as Hindi, Tamil, Marathi, and English.
 
-3. **Recipe Recommendations**: 
+2. **Recipe Recommendations**: 
    - Users can input any text, including specific instructions or preferences, and receive personalized recipe recommendations based on their input.
 
-4. **Recipe Filtering**: 
+3. **Recipe Filtering**: 
    - Allows users to filter and search through the listed recipes, making it easier to find recipes based on their preferences and dietary requirements.
 
 
